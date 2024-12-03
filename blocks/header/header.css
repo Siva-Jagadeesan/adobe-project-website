@@ -1,9 +1,15 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  background-color: #efe8ec;
   width: 100%;
   z-index: 2;
   position: fixed;
+  box-shadow: 0 8px 20px 0 rgba(0,0,0,.26);
+}
+.header .nav-wrapper #wknd{
+  margin-top: .7rem;
+  font-size: -webkit-xxx-large;
 }
 
 header nav {
@@ -202,8 +208,8 @@ header nav .nav-sections ul > li > ul > li {
     content: '';
     display: inline-block;
     position: absolute;
-    top: 0.5em;
-    right: 2px;
+    top: 0.8em;
+    right: -8px;
     transform: rotate(135deg);
     width: 6px;
     height: 6px;
@@ -222,11 +228,15 @@ header nav .nav-sections ul > li > ul > li {
     display: flex;
     gap: 24px;
     margin: 0;
+    justify-content: flex-end;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
+    margin-top: 5px;
+    font-size: .9rem;
+    padding: 5px;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
@@ -238,11 +248,18 @@ header nav .nav-sections ul > li > ul > li {
     display: block;
     position: absolute;
     left: -24px;
-    width: 200px;
+    /* width: 200px; */
+    width: 100vh;
     top: 150%;
     padding: 16px;
     background-color: var(--light-color);
     white-space: initial;
+    background-image: url(https://main--adobe-project-website--siva-jagadeesan.aem.live/media_14815957028add6543e2686be6fab08924a4436f9.jpeg?width=2000&format=webply&optimize=medium);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
@@ -260,9 +277,16 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     padding: 8px 0;
   }
+  header nav .nav-sections .default-content-wrapper > ul > li > ul > li:hover {
+    font-weight: 800;
+    background-color: rgba(250, 250,250, .6);
+  }
 }
 
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+header nav .nav-sections .default-content-wrapper > ul > li:hover {
+background-color: rgb(255, 255, 255,.3);
 }

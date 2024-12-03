@@ -7,6 +7,10 @@
   grid-gap: 24px;
 }
 
+.cards-wrapper{
+  margin-top: 1.5rem !important;
+}
+
 .cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);

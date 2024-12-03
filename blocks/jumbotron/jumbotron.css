@@ -1,0 +1,43 @@
+.jumbotron-wrapper{
+    margin-top: 1.5rem !important;
+} 
+
+.jumbotron > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(257px, 1fr)); */
+    grid-gap: 24px;
+  }
+  
+  .jumbotron > ul > li {
+    border: 1px solid #dadada;
+    background-color: var(--background-color);
+    display: flex;
+  }
+  
+  .jumbotron .jumbotron-jumbo-body {
+    margin: 16px;
+  }
+  
+  .jumbotron .jumbotron-jumbo-image {
+    line-height: 0;
+  }
+  
+  .section.jumbotron-container .jumbotron-wrapper .jumbotron-jumbo-image img{
+    min-width: 450px;
+    min-height: 406px;
+  }
+  @media (width < 700px) {
+    .jumbotron .jumbotron-jumbo-image{
+        display: none;
+    }
+  }
+  .jumbotron > ul > li img {
+    width: 100%;
+    /* aspect-ratio: 4 / 3; */
+    aspect-ratio: 2/3;
+    object-fit: cover;
+  }
+  

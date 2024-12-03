@@ -1,0 +1,79 @@
+.cardlist > ul,ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+  grid-gap: 10px;
+  list-style-type: none !important;
+  position: relative;
+  justify-content: space-between;
+}
+
+.cardlist-wrapper{
+  margin-top: 1.5rem !important;
+}
+
+.cardlist > ul > li {
+  /* border: 1px solid #dadada; */
+  background-color: var(--background-color);
+}
+
+.cardlist .cardlist-cardlist-body {
+  margin: 16px;
+}
+.cardlist .cardlist-cardlist-body h2{
+  text-align: center;
+  font-size: 24px;
+}
+
+.cardlist .cardlist-cardlist-image {
+  line-height: 0;
+  text-align: center;
+}
+
+.cardlist > ul > li img {
+  width: 100%;
+  aspect-ratio: 3 / 3;
+  height: 164px;
+  width: 164px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cardlist > ul > li{
+  font-size: 14px;
+  list-style-type: none !important;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cardlist .cardlist-cardlist-body > ul > li:nth-child(2n)::before,.cardlist .cardlist-cardlist-body > ul > li:nth-child(3n)::before{
+  content: "|";
+  position: relative;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cardlist .cardlist-cardlist-body > ul{
+  justify-content: center !important;
+}
+
+.aboutus .cardlist-cardlist-body p a img{
+  height: 37px;
+  width: 37px;
+  border-radius: unset;
+}
+
+.aboutus .cardlist-cardlist-body p {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (width < 900px) {
+  .cardlist > ul {
+    flex-direction: column;
+  }
+}

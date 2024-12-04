@@ -1,11 +1,11 @@
 .video {
     text-align: center;
-    /* max-width: 900px; */
-    /* margin: 24px auto; */
   }
+
   .video-wrapper{
-    padding: 0px !important;
+    padding: 0 !important;
   }
+
   .video[data-embed-loaded='false']:not(.placeholder) {
     /* reserve an approximate space to avoid extensive layout shifts */
     aspect-ratio: 16 / 9;

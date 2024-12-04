@@ -6,7 +6,7 @@ main .forms {
   border: solid 1px var(--bg-color-grey);
   width: 50%;
   margin: 0 auto;
-  box-shadow: 1px 0px 6px -1px;
+  box-shadow: 1px 0 6px 0;
   }
   
   main .forms h2 {
@@ -23,6 +23,7 @@ main .forms {
   main .forms textarea,
   main .forms select {
     border: solid 1px var(--bg-color-grey);
+
     /* padding: var(--spacing-xxs) var(--spacing-xs);
     width: 100%;
     max-width: 50rem;
@@ -124,7 +125,7 @@ main .forms {
     font-family: var(--body-font-family);
   }
   
-  @media screen and (min-width: 900px) {
+  @media (width > 900px) {
     main .form {
       padding: var(--spacing-ml);
     }

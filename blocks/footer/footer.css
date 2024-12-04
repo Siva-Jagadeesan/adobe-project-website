@@ -19,6 +19,7 @@ footer .displayflex .default-content-wrapper {
   display: flex;
   justify-content: space-between;
 }
+
 footer .displayflex .default-content-wrapper p{
   display: flex;
   gap: 10px;
@@ -33,6 +34,7 @@ footer .default-content-wrapper a picture img{
   width: 37px;
   height: 37px;
 }
+
 footer .default-content-wrapper #wknd{
   margin-top: -24px;
 }

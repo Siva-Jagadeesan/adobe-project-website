@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     display: grid;
+
     /* grid-template-columns: repeat(auto-fill, minmax(257px, 1fr)); */
     grid-gap: 24px;
   }
@@ -28,16 +29,17 @@
   .section.jumbotron-container .jumbotron-wrapper .jumbotron-jumbo-image img{
     min-width: 450px;
     min-height: 406px;
+    width: 100%;
+    
+    /* aspect-ratio: 4 / 3; */
+    aspect-ratio: 2/3;
+    object-fit: cover;
   }
+
   @media (width < 700px) {
     .jumbotron .jumbotron-jumbo-image{
         display: none;
     }
   }
-  .jumbotron > ul > li img {
-    width: 100%;
-    /* aspect-ratio: 4 / 3; */
-    aspect-ratio: 2/3;
-    object-fit: cover;
-  }
-  
+
+ 

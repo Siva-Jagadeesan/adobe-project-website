@@ -1,4 +1,4 @@
-.cardlist > ul,ul ul {
+ul ul,.cardlist > ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -14,14 +14,10 @@
   margin-top: 1.5rem !important;
 }
 
-.cardlist > ul > li {
-  /* border: 1px solid #dadada; */
-  background-color: var(--background-color);
-}
-
 .cardlist .cardlist-cardlist-body {
   margin: 16px;
 }
+
 .cardlist .cardlist-cardlist-body h2{
   text-align: center;
   font-size: 24px;
@@ -33,7 +29,6 @@
 }
 
 .cardlist > ul > li img {
-  width: 100%;
   aspect-ratio: 3 / 3;
   height: 164px;
   width: 164px;
@@ -46,6 +41,7 @@
   list-style-type: none !important;
   text-transform: uppercase;
   font-weight: 700;
+  background-color: var(--background-color);
 }
 
 .cardlist .cardlist-cardlist-body > ul > li:nth-child(2n)::before,.cardlist .cardlist-cardlist-body > ul > li:nth-child(3n)::before{

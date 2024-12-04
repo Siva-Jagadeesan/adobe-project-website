@@ -183,6 +183,7 @@ button {
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
+  
   /* background-color: var(--link-color); */
   color: var(--dark-background-color);
   background-color: var(--background-color);

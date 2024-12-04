@@ -5,8 +5,9 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
-  box-shadow: 0 8px 20px 0 rgba(0,0,0,.26);
+  box-shadow: 0 8px 20px 0 #00000042;
 }
+
 .header .nav-wrapper #wknd{
   margin-top: .7rem;
   font-size: -webkit-xxx-large;
@@ -248,18 +249,18 @@ header nav .nav-sections ul > li > ul > li {
     display: block;
     position: absolute;
     left: -24px;
+
     /* width: 200px; */
     width: 100vh;
     top: 150%;
     padding: 16px;
     background-color: var(--light-color);
     white-space: initial;
-    background-image: url(https://main--adobe-project-website--siva-jagadeesan.aem.live/media_14815957028add6543e2686be6fab08924a4436f9.jpeg?width=2000&format=webply&optimize=medium);
+    background-image: url("https://main--adobe-project-website--siva-jagadeesan.aem.live/media_14815957028add6543e2686be6fab08924a4436f9.jpeg?width=2000&format=webply&optimize=medium");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
-
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
@@ -277,9 +278,10 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     padding: 8px 0;
   }
+
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li:hover {
     font-weight: 800;
-    background-color: rgba(250, 250,250, .6);
+    background-color: #fafafa0f;
   }
 }
 
@@ -287,6 +289,7 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
 header nav .nav-sections .default-content-wrapper > ul > li:hover {
-background-color: rgb(255, 255, 255,.3);
+background-color: #ffffff08;
 }

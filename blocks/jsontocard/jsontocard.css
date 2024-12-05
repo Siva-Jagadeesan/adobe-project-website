@@ -1,0 +1,38 @@
+.jsontocard{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.jsontocard.adventure.block{
+    width: 100% !important;
+}
+
+.jsontocard-body p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jsontocard img{
+    max-width: 100%;
+    width: auto;
+    height: 235px;
+    object-fit: cover;
+}
+
+.jsontocard .employee-block > div{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.jsontocard.queryindex{
+    width: 100%;
+}
+
+@media (width < 900px) {
+    .jsontocard{
+        width: 90%;
+    }
+}

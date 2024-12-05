@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--adobe-project-website--siva-jagadeesan.aem.live/
+- Live: https://capstone-branch--adobe-project-website--siva-jagadeesan.aem.live/
 
 ## Documentation
 

@@ -22,7 +22,7 @@
     object-fit: cover;
 }
 
-.jsontocard .employee-block > div{
+.jsontocard .json-block > div{
     display: flex;
     flex-flow: wrap;
 }
